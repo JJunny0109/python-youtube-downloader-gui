@@ -1,0 +1,22 @@
+# 파이썬 컴파일 캐시 (불필요)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 가상환경 (용량이 크고 각자 설치해야 함)
+.venv/
+venv/
+env/
+bin/
+include/
+lib/
+
+# VS Code 설정
+.vscode/
+
+# PyInstaller 등으로 만든 실행 파일 (.exe 등)
+build/
+dist/
+
+# 로그 파일
+*.log
